@@ -73,7 +73,7 @@ header {
     height: 500px;
     padding: 50px;
     margin: 50px;
-    background-color: blue;
+    background-color: rgb(87, 87, 241);
 
 }
 
@@ -109,6 +109,96 @@ header {
     background-color: white;
     padding: 4px 14px;
     font-size: 15px;
+}
+
+/* CSS Destaque */
+.destaque h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.destaque p {
+    width: 77%;
+    text-align: center;
+    font-size: 14px;
+    margin: 30px auto;
+}
+
+.destaque figcaption {
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.destaque a {
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: #30dcf4;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px 0;
+
+}
+/* Fim CSS Destaque */
+/* Inicio CSS Novidades */
+.novidades {
+    background-color: rgb(119, 0, 255);
+    padding: 50px;
+}
+   
+.novidades .text-body {
+    width: 80%;
+    margin: 70px;
 
 }
 
+.novidades h2 {
+    color: #e7e7e7;
+
+}
+
+.novidades p {
+    color: rgb(255, 255, 255);
+
+}
+
+.novidades a {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-decoration-color: darkslateblue;
+    padding: 6px;
+    background-color: #ffff;
+    font-weight: 500;
+
+}
+
+/* Fim CSS Novidades */
+/* Inicio CSS Galeria */
+
+.galeria {
+    margin: 60px auto 20px;
+
+}
+
+.galeria h2 {
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.galeria p {
+    text-align: center;
+    width: 50%;
+    margin: 14px auto 50px;
+
+}
+
+.galeria .gallery {
+    width: 30%;
+    margin: 14px auto 50px;
+
+}
+/* Fim CSS Galeria */
