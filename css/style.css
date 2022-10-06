@@ -54,15 +54,16 @@ header {
 }
 
 #carouselExampleInterval {
+    padding-top: 73px;
     position: relative;
     z-index: 5;
     gap: 0.5rem;
 
 }
 
-.carouselExampleInterval .carousel-item img {
-    height: 100px;
-
+#carouselExampleInterval .carousel-item img {
+    height: 600px;
+    left: auto;
 
 }
 
@@ -150,7 +151,7 @@ header {
 }
    
 .novidades .text-body {
-    width: 80%;
+    width: 50%;
     margin: 70px;
 
 }
@@ -179,7 +180,7 @@ header {
 /* Inicio CSS Galeria */
 
 .galeria {
-    margin: 60px auto 20px;
+    margin: 50px auto 50px;
 
 }
 
@@ -197,8 +198,47 @@ header {
 }
 
 .galeria .gallery {
-    width: 30%;
+    width: 25%;
     margin: 14px auto 50px;
 
 }
 /* Fim CSS Galeria */
+/* Inicio CSS footer */
+
+.rodape {
+    margin: 50px 50px 0;
+
+}
+
+.rodape .info-contato {
+    margin: 0px;
+
+}
+
+.rodape a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+
+}
+
+.rodape a:hover {
+    font-weight: bold;
+}
+
+.rodape .redes-sociais {
+    display: inline-block;
+
+}
+
+.rodape .redes-sociais img {
+    width: 45px;
+    height: 40px;
+
+}
+
+.rodape p.direitos {
+    text-align: center;
+    margin-top: 40px;
+
+}
