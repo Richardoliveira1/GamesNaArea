@@ -29,7 +29,7 @@ a:hover {
 
 header {
     width: 100%;
-    position: fixed; /*Add Position e Z-index*/
+    position: relative; /*Add Position e Z-index*/
     z-index: 90;
     box-sizing: border-box;
     height: 70px;
@@ -134,6 +134,28 @@ header {
         transform: rotate(-135deg) ;
         top: -7px;   
     }
+    /*CSS página midia.html */
+
+    .embed-container {
+        position: relative;
+        padding-bottom: 0px;
+        height: 400px;
+        max-width: 100%;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+
+    }
+
+    .embed-container iframe, .embed-container object, .embed-container embed {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+
+    }
 }
 
 /* css configurando banner */
@@ -142,7 +164,7 @@ header {
     width: 100%;
     height: 500px;
     padding: 50px;
-    margin: 50px;
+    margin: 10px auto;
     background-color: rgb(87, 87, 241);
 
 }
@@ -215,7 +237,7 @@ header {
 /* Fim CSS Destaque */
 /* Inicio CSS Novidades */
 .novidades {
-    background-color: rgb(119, 0, 255);
+    background-color: rgb(87, 87, 241);
     padding: 50px;
 }
    
@@ -314,13 +336,12 @@ header {
 
 .embed-container {
     position: relative;
-    padding-bottom: 56,25%;
-    height: 100%;
+    padding-bottom: 0px;
+    height: 400px;
     max-width: 100%;
-    height: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-top: 100px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-top: 0px;
 
 }
 
@@ -330,5 +351,6 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
+
 
 }
