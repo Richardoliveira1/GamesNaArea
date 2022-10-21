@@ -40,62 +40,24 @@
                     <p> Para dúvidas, elogios e reclamações. </p>
                 </section>
                 <!-- Fim da tag section com texto de contato -->
-                <!-- inicio formulario -->
-                <div class="col-md-6">
-                    <div class="well well-sm">
-                        <form class="form-honrizontal" method="post">
-                            <fieldset>
-                                <legend class="text-left header"> Preencha Suas Informações  </legend>
-                                <div class="form-grupo">
-                                    <div class="col-md-10 col-md-offset-1">
-                                        <input id="fname" name="name" type="text" placeholder=" Insira Seu Primeiro Nome" class="form-control " required>
-                                    </div>
-                                </div>
-                                <div class="form-grupo">
-                                    <div class="col-md-10 col-md-offset-1">
-                                        <input id="lname" name="name" type="text" placeholder=" Insira Seu Ultimo Nome" class="form-control " required>
-                                    </div>
-                                </div>
-                                <div class="form-grupo">
-                                    <div class="col-md-10 col-md-offset-1">
-                                            <input id="email" name="email" type="email" placeholder=" Insira Seu Email" class="form-control " required>
-                                    </div>
-                                </div>
-                                <div class="form-grupo">
-                                    <div class="col-md-10 col-md-offset-1">
-                                            <input id="phone" name="phone" type="text" placeholder=" Insira Seu Telefone " class="form-control " required>
-                                    </div>
-                                </div>
-                                <div class="form-grupo">
-                                    <div class="col-md-10 col-md-offset-1">
-                                            <textarea id="message" name="message" placeholder=" Insira Sua Mensagem Que Retonaremos Em Até Dois Dias Uteis " class="form-control" rows="7" required></textarea>
-                                    </div>
-                                </div>
-                                <div class="form-grupo">
-                                    <div class="col-md-12 text-center">
-                                        <button type="submit" class="formbutton">Enviar </button>
-                                    </div>
-                                </div>
-                            </fieldset>
-                        </form>     
-                    </div>
+                <!-- Incio Formulario -->
+                <div class="col-md-4">
+                    <div class="form-main">
+                        <h4 class="heading"><strong> Contato </strong> Expreso <span></span></h4>
+                        <div class="form">
+                            <form action="#" method="post" id="contactFrm" name="contactFrm">
+                                <input type="text" required="" placeholder="insira o nome completo." value="" name="name" class="txt">
+                                <input type="text" required="" placeholder="insira o seu telefone." value="" name="mob" class="txt">
+                                <input type="text" required="" placeholder="insira o seu email." value="" name="email" class="txt">
+
+                                <textarea placeholder="Insira sua mensagem" name="mess" type="text" class="text_3" cols="30" rows="10"></textarea>
+                                <input type="submit" value="submit" name="submit" class="txt2">
+                            </form>            
+                        </div>
+                    </div>                    
                 </div>
-                    <!-- Fim Formulario -->               
-                    <!--fim formulario-->
-                    <div class="col-md-6">
-                        <div>
-                            <div class="panel panel-default">
-                                <div class="text-center header">Onde estamos Localizados</div>
-                                <div class="panel-body text-center">
-                                    <h4>Endereço</h4>
-                                    <div>Avenida ABC, 123 <br /> centro são paulo - sp | </div>
-           
-                                </div>
-                                <div id="map1" class="map">
-                                </div>
-                    </div> 
-                </div>
-           
+                <!-- Fim Formulario -->               
+                
                 <!-- Inicio Footer -->
                 <footer class="rodape">
                     <div class="container">
@@ -126,6 +88,7 @@
                                     <a href="https://instagram.com"><img src="./img/insta.png" alt=""></a>
                                     <a href="https://youtube.com"><img src="./img/youtube.png" alt=""></a>
                                     <a href="https://linkdin.com"><img src="./img/linkedin.png" alt=""></a>
+                                    <a href="https://api.whatsapp.com/send?phone=5515996781726&text=Seja%20Bem%20Vindo%20AO%20Nosso%20Atendimento...%20Como%20Podemos%20Te%20Ajudar%20%3F"><img src="./img/whatsapp-logo-png.png" alt=""></a>
                                 </figure>
                                 <br>
                                 <!-- Repetir Opções Do Menu Do Site -->
@@ -152,9 +115,4 @@
     <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
 
     <script type="text/javascript" src="./js/script_menu.js"></script>
-
-    <script type="text/javascript" src="./js/map.js"></script>
-
-    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-   
 </html>
